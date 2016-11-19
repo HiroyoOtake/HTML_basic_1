@@ -2,10 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>リンクの生成</title>
+		<title>フォームの作成</title>
 	</head>
 	<body>
-		<a href="http://www.google.co.jp">Googleはこちら</a>
-		<a href="link.html">link.htmlはこちら</a>
+		<form action="inquiry.php" method="post">
+			ユーザーネーム:<input type="text" name="username">
+			メールアドレス:<input type="text" name="email">
+			<input type="submit" value="ログイン">
+		</form>
 	</body>
 </html>
